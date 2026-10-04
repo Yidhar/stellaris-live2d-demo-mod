@@ -1,0 +1,285 @@
+# Ten portraits that look like the vanilla human ones to a game without the plugin, and the human portrait group choosing among them.
+# The Live2D side of them is in gfx/portraits/live2d/.
+
+portraits = {
+	l2d_human_female_01 = {	
+		entity = "portrait_human_female_entity"
+		clothes_selector = "new_human_female_clothes_01"
+		attachment_selector = "new_human_female_hair_01"
+		greeting_sound = "human_female_greetings_03"
+		
+		character_textures = {
+			"gfx/models/portraits/human/new_human/human_female_body_latina_brown_eyes.dds"
+			"gfx/models/portraits/human/new_human/human_female_body_latina_light_brown_eyes.dds"
+			"gfx/models/portraits/human/new_human/human_female_body_latina_green_eyes.dds"
+			"gfx/models/portraits/human/new_human/human_female_body_latina_blue_eyes.dds"
+			"gfx/models/portraits/human/new_human/human_female_body_latina_hazel_eyes.dds"
+		}
+		
+		custom_attachment_label = "HAIR_STYLE"
+	}
+	l2d_human_female_02 = {	
+		entity = "portrait_human_female_entity"	
+		clothes_selector = "new_human_female_clothes_01" 
+		attachment_selector = "new_human_female_hair_01"
+		greeting_sound = "human_female_greetings_04"
+		
+		character_textures = {
+			"gfx/models/portraits/human/new_human/human_female_body_asian_brown_eyes.dds"
+			"gfx/models/portraits/human/new_human/human_female_body_asian_light_brown_eyes.dds"
+			"gfx/models/portraits/human/new_human/human_female_body_asian_green_eyes.dds"
+			"gfx/models/portraits/human/new_human/human_female_body_asian_blue_eyes.dds"
+			"gfx/models/portraits/human/new_human/human_female_body_asian_hazel_eyes.dds"
+		}
+		
+		custom_attachment_label = "HAIR_STYLE"
+	}
+	l2d_human_female_03 = {	
+		entity = "portrait_human_female_entity"	
+		clothes_selector = "new_human_female_clothes_01" 
+		attachment_selector = "new_human_female_hair_01"
+		greeting_sound = "human_female_greetings_05"
+		
+		character_textures = {
+			"gfx/models/portraits/human/new_human/human_female_body_mideastern_brown_eyes.dds"
+			"gfx/models/portraits/human/new_human/human_female_body_mideastern_light_brown_eyes.dds"
+			"gfx/models/portraits/human/new_human/human_female_body_mideastern_green_eyes.dds"
+			"gfx/models/portraits/human/new_human/human_female_body_mideastern_blue_eyes.dds"
+			"gfx/models/portraits/human/new_human/human_female_body_mideastern_hazel_eyes.dds"
+		}
+		
+		custom_attachment_label = "HAIR_STYLE"
+	}
+	l2d_human_female_04 = {	
+		entity = "portrait_human_female_entity"
+		clothes_selector = "new_human_female_clothes_01"
+		attachment_selector = "new_human_female_hair_01"
+		greeting_sound = "human_female_greetings_01"
+		
+		character_textures = {
+			"gfx/models/portraits/human/new_human/human_female_body_caucasian_brown_eyes.dds"
+			"gfx/models/portraits/human/new_human/human_female_body_caucasian_light_brown_eyes.dds"
+			"gfx/models/portraits/human/new_human/human_female_body_caucasian_green_eyes.dds"
+			"gfx/models/portraits/human/new_human/human_female_body_caucasian_blue_eyes.dds"
+			"gfx/models/portraits/human/new_human/human_female_body_caucasian_hazel_eyes.dds"
+		}
+		
+		custom_attachment_label = "HAIR_STYLE"
+	}
+	l2d_human_female_05 = {	
+		entity = "portrait_human_female_entity"
+		clothes_selector = "new_human_female_clothes_01"
+		attachment_selector = "new_human_female_hair_01"
+		greeting_sound = "human_female_greetings_02"
+	
+		character_textures = {
+			"gfx/models/portraits/human/new_human/human_female_body_african_brown_eyes.dds"
+			"gfx/models/portraits/human/new_human/human_female_body_african_light_brown_eyes.dds"
+			"gfx/models/portraits/human/new_human/human_female_body_african_green_eyes.dds"
+			"gfx/models/portraits/human/new_human/human_female_body_african_blue_eyes.dds"
+			"gfx/models/portraits/human/new_human/human_female_body_african_hazel_eyes.dds"
+		}
+		
+		custom_attachment_label = "HAIR_STYLE"
+	}
+	l2d_human_male_01 = {
+		entity = "portrait_human_male_entity"
+		clothes_selector = "new_human_male_clothes_01"
+		attachment_selector = "new_human_male_hair_01"
+		greeting_sound = "human_male_greetings_03"
+		
+		character_textures = {
+			"gfx/models/portraits/human/new_human/human_male_body_latino_brown_eyes.dds"
+			"gfx/models/portraits/human/new_human/human_male_body_latino_light_brown_eyes.dds"
+			"gfx/models/portraits/human/new_human/human_male_body_latino_green_eyes.dds"
+			"gfx/models/portraits/human/new_human/human_male_body_latino_blue_eyes.dds"
+			"gfx/models/portraits/human/new_human/human_male_body_latino_hazel_eyes.dds"
+		}
+		
+		custom_attachment_label = "HAIR_STYLE"
+	}
+	l2d_human_male_02 = {	
+		entity = "portrait_human_male_entity"
+		clothes_selector = "new_human_male_clothes_01"
+		attachment_selector = "new_human_male_hair_01"
+		greeting_sound = "human_male_greetings_04"
+		
+		character_textures = {
+			"gfx/models/portraits/human/new_human/human_male_body_asian_brown_eyes.dds"
+			"gfx/models/portraits/human/new_human/human_male_body_asian_light_brown_eyes.dds"
+			"gfx/models/portraits/human/new_human/human_male_body_asian_green_eyes.dds"
+			"gfx/models/portraits/human/new_human/human_male_body_asian_blue_eyes.dds"
+			"gfx/models/portraits/human/new_human/human_male_body_asian_hazel_eyes.dds"
+		}
+		
+		custom_attachment_label = "HAIR_STYLE"
+	}
+	l2d_human_male_03 = {	
+		entity = "portrait_human_male_entity"
+		clothes_selector = "new_human_male_clothes_01"
+		attachment_selector = "new_human_male_hair_01"
+		greeting_sound = "human_male_greetings_05"
+		
+		character_textures = {
+			"gfx/models/portraits/human/new_human/human_male_body_mideastern_brown_eyes.dds"
+			"gfx/models/portraits/human/new_human/human_male_body_mideastern_light_brown_eyes.dds"
+			"gfx/models/portraits/human/new_human/human_male_body_mideastern_green_eyes.dds"
+			"gfx/models/portraits/human/new_human/human_male_body_mideastern_blue_eyes.dds"
+			"gfx/models/portraits/human/new_human/human_male_body_mideastern_hazel_eyes.dds"
+		}
+		
+		custom_attachment_label = "HAIR_STYLE"
+	}
+	l2d_human_male_04 = {	
+		entity = "portrait_human_male_entity"
+		clothes_selector = "new_human_male_clothes_01"
+		attachment_selector = "new_human_male_hair_01"
+		greeting_sound = "human_male_greetings_01"
+		
+		character_textures = {
+			"gfx/models/portraits/human/new_human/human_male_body_caucasian_brown_eyes.dds"
+			"gfx/models/portraits/human/new_human/human_male_body_caucasian_light_brown_eyes.dds"
+			"gfx/models/portraits/human/new_human/human_male_body_caucasian_green_eyes.dds"
+			"gfx/models/portraits/human/new_human/human_male_body_caucasian_blue_eyes.dds"
+			"gfx/models/portraits/human/new_human/human_male_body_caucasian_hazel_eyes.dds"
+		}
+		
+		custom_attachment_label = "HAIR_STYLE"
+	}
+	l2d_human_male_05 = {	
+		entity = "portrait_human_male_entity"
+		clothes_selector = "new_human_male_clothes_01"
+		attachment_selector = "new_human_male_hair_01"
+		greeting_sound = "human_male_greetings_02"
+	
+		character_textures = {
+			"gfx/models/portraits/human/new_human/human_male_body_african_brown_eyes.dds"
+			"gfx/models/portraits/human/new_human/human_male_body_african_light_brown_eyes.dds"
+			"gfx/models/portraits/human/new_human/human_male_body_african_green_eyes.dds"
+			"gfx/models/portraits/human/new_human/human_male_body_african_blue_eyes.dds"
+			"gfx/models/portraits/human/new_human/human_male_body_african_hazel_eyes.dds"
+		}
+		
+		custom_attachment_label = "HAIR_STYLE"
+	}
+}
+
+portrait_groups = {
+	human = {
+		default = l2d_human_male_01
+		game_setup = {
+			set = {
+				trigger = {
+					ruler = { OR = { gender = male gender = indeterminable } }
+				}
+				portraits = {
+					l2d_human_male_01
+					l2d_human_male_02
+					l2d_human_male_03
+				}
+			}
+			add = {
+				trigger = {
+					ruler = { OR = { gender = female gender = indeterminable } }
+				}
+				portraits = {
+					l2d_human_female_01
+					l2d_human_female_02
+					l2d_human_female_03
+				}
+			}
+		}
+		species = {
+			set = {
+				trigger = {
+					exists = species
+					NOT = { species = { species_gender = female } }
+				}
+				portraits = {
+					l2d_human_male_01
+					l2d_human_male_02
+					l2d_human_male_03
+					l2d_human_male_04
+					l2d_human_male_05
+				}
+			}
+			add = {
+				trigger = {
+					exists = species
+					NOT = { species = { species_gender = male } }
+				}
+				portraits = {
+					l2d_human_female_01
+					l2d_human_female_02
+					l2d_human_female_03
+					l2d_human_female_04
+					l2d_human_female_05
+				}
+			}
+		}
+		pop = {
+			set = {
+				trigger = {
+					NOT = { species = { species_gender = female } }
+				}
+				portraits = {
+					l2d_human_male_04
+					l2d_human_male_05
+				}
+			}
+			add = {
+				trigger = {
+					NOT = { species = { species_gender = male } }
+				}
+				portraits = {
+					l2d_human_female_04
+					l2d_human_female_05
+				}
+			}
+		}
+		leader = {
+			set = {
+				trigger = {
+					OR = { gender = male gender = indeterminable }
+				}
+				portraits = {
+					l2d_human_male_01
+					l2d_human_male_02
+					l2d_human_male_03
+				}
+			}
+			add = {
+				trigger = {
+					OR = { gender = female gender = indeterminable }
+				}
+				portraits = {
+					l2d_human_female_01
+					l2d_human_female_02
+					l2d_human_female_03
+				}
+			}
+		}
+		ruler = {
+			set = {
+				trigger = {
+					OR = { gender = male gender = indeterminable }
+				}
+				portraits = {
+					l2d_human_male_01
+					l2d_human_male_02
+					l2d_human_male_03
+				}
+			}
+			add = {
+				trigger = {
+					OR = { gender = female gender = indeterminable }
+				}
+				portraits = {
+					l2d_human_female_01
+					l2d_human_female_02
+					l2d_human_female_03
+				}
+			}
+		}
+	}
+}

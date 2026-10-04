@@ -1,0 +1,318 @@
+# Which of this mod's portraits are Live2D, and how. Read by stellaris_live2d.dll, not by the game.
+
+portraits = {
+	l2d_human_female_01 = {
+		live2d = yes
+		live2d_unmirror = yes
+		live2d_model = "gfx/live2d/model_09/model.model3.json"
+		live2d_view = { auto = yes  body = 0.46 }
+		live2d_actions = {
+			mouse_follow = { enabled = yes  strength = 0.6 }
+			click = { motion_group = "touch*"  voices = { touch_1 = "sound/demo/line1.wav" touch_2 = "sound/demo/line2.wav" touch_3 = "sound/demo/line3.wav" } }
+			click_head = { motion_group = "touch*" expression = "smile"  voices = { touch_1 = "sound/demo/line1.wav" touch_2 = "sound/demo/line2.wav" touch_3 = "sound/demo/line3.wav" } }
+			hover = { expression = "smile"  expression_hold = 1.5 }
+			appear = { motion_group = "login"  expression = "smile"  expression_hold = 2 }
+			idle = { motion_group = "wait*"  interval = { 15 30 } }
+			greeting = { motion_group = "touch*"  voices = { touch_1 = "sound/demo/line1.wav" touch_2 = "sound/demo/line2.wav" touch_3 = "sound/demo/line3.wav" } }
+		}
+	}
+	l2d_human_female_02 = {
+		live2d = yes
+		live2d_unmirror = yes
+		live2d_model = "gfx/live2d/model_02/model.model3.json"
+		live2d_view = { auto = yes  body = 0.46 }
+		live2d_actions = {
+			mouse_follow = { enabled = yes  strength = 0.6 }
+			click = { motion_group = "touch*"  sounds = { "sound/demo/line1.wav" "sound/demo/line2.wav" "sound/demo/line3.wav" } }
+			click_head = { motion_group = "touch*" expression = "smile"  sounds = { "sound/demo/line1.wav" "sound/demo/line2.wav" "sound/demo/line3.wav" } }
+			hover = { expression = "smile"  expression_hold = 1.5 }
+			appear = { motion_group = "login"  expression = "smile"  expression_hold = 2 }
+			idle = { motion_group = "wait*"  interval = { 15 30 } }
+			greeting = { motion_group = "touch*"  sounds = { "sound/demo/line1.wav" "sound/demo/line2.wav" "sound/demo/line3.wav" } }
+		}
+	}
+	l2d_human_female_03 = {
+		live2d = yes
+		live2d_unmirror = yes
+		live2d_model = "gfx/live2d/model_04/model.model3.json"
+		live2d_view = { auto = yes  body = 0.46 }
+		live2d_actions = {
+			mouse_follow = { enabled = yes  strength = 0.6 }
+			click = { motion_group = "touch*"  sounds = { "sound/demo/line1.wav" "sound/demo/line2.wav" "sound/demo/line3.wav" } }
+			click_head = { motion_group = "touch*" expression = "smile"  sounds = { "sound/demo/line1.wav" "sound/demo/line2.wav" "sound/demo/line3.wav" } }
+			hover = { expression = "smile"  expression_hold = 1.5 }
+			appear = { motion_group = "login"  expression = "smile"  expression_hold = 2 }
+			idle = { motion_group = "wait*"  interval = { 15 30 } }
+			greeting = { motion_group = "touch*"  sounds = { "sound/demo/line1.wav" "sound/demo/line2.wav" "sound/demo/line3.wav" } }
+		}
+	}
+	l2d_human_female_04 = {
+		live2d = yes
+		live2d_unmirror = yes
+		live2d_scale = 1.3
+		live2d_model = "gfx/live2d/model_01/model.model3.json"
+		live2d_view = { auto = yes  body = 0.46 }
+		live2d_actions = {
+			mouse_follow = { enabled = yes  strength = 0.6 }
+			click = { motion_group = "touch*"  sounds = { "sound/demo/line1.wav" "sound/demo/line2.wav" "sound/demo/line3.wav" } }
+			click_head = { motion_group = "touch*" expression = "smile"  sounds = { "sound/demo/line1.wav" "sound/demo/line2.wav" "sound/demo/line3.wav" } }
+			hover = { expression = "smile"  expression_hold = 1.5 }
+			appear = { motion_group = "login"  expression = "smile"  expression_hold = 2 }
+			idle = { motion_group = "wait*"  interval = { 15 30 } }
+			greeting = { motion_group = "touch*"  sounds = { "sound/demo/line1.wav" "sound/demo/line2.wav" "sound/demo/line3.wav" } }
+		}
+	}
+	l2d_human_female_05 = {
+		live2d = yes
+		live2d_unmirror = yes
+		live2d_ignore_parameters = { "ParamBlack0" }
+		live2d_model = "gfx/live2d/model_08/model.model3.json"
+		live2d_view = { auto = yes  body = 0.46 }
+		live2d_actions = {
+			mouse_follow = { enabled = yes  strength = 0.6 }
+			click = { motion_group = "touch*"  sounds = { "sound/demo/line1.wav" "sound/demo/line2.wav" "sound/demo/line3.wav" } }
+			click_head = { motion_group = "touch*" expression = "smile"  sounds = { "sound/demo/line1.wav" "sound/demo/line2.wav" "sound/demo/line3.wav" } }
+			hover = { expression = "smile"  expression_hold = 1.5 }
+			appear = { motion_group = "login"  expression = "smile"  expression_hold = 2 }
+			idle = { motion_group = "wait*"  interval = { 15 30 } }
+			greeting = { motion_group = "touch*"  sounds = { "sound/demo/line1.wav" "sound/demo/line2.wav" "sound/demo/line3.wav" } }
+		}
+	}
+	l2d_human_male_01 = {
+		live2d = yes
+		live2d_unmirror = yes
+		live2d_ignore_parameters = { "ParamSunX" "ParamSunY" "ParamSun" "ParamBlack1" "ParamBlackBack" "ParamCamZoom" "ParamCamX" "ParamCamY" }
+		live2d_model = "gfx/live2d/model_05/model.model3.json"
+		live2d_view = { x = 0.48 y = 0.49 height = 0.17 }
+		live2d_actions = {
+			mouse_follow = { enabled = yes  strength = 0.6 }
+			click = { motion_group = "touch*"  sounds = { "sound/demo/line1.wav" "sound/demo/line2.wav" "sound/demo/line3.wav" } }
+			click_head = { motion_group = "touch*" expression = "smile"  sounds = { "sound/demo/line1.wav" "sound/demo/line2.wav" "sound/demo/line3.wav" } }
+			hover = { expression = "smile"  expression_hold = 1.5 }
+			appear = { motion_group = "login"  expression = "smile"  expression_hold = 2 }
+			idle = { motion_group = "wait*"  interval = { 15 30 } }
+			greeting = { motion_group = "touch*"  sounds = { "sound/demo/line1.wav" "sound/demo/line2.wav" "sound/demo/line3.wav" } }
+		}
+	}
+	l2d_human_male_02 = {
+		live2d = yes
+		live2d_unmirror = yes
+		live2d_ignore_parameters = { "ParamQianjin0" "ParamQianjin" "ParamBlack" "ParamBlack2" "ParamCamera0" "ParamCamerax" "ParamCameray" "ParamCamerazoom" "ParamZoom" }
+		live2d_model = "gfx/live2d/model_03/model.model3.json"
+		live2d_view = { auto = yes  body = 0.46 }
+		live2d_actions = {
+			mouse_follow = { enabled = yes  strength = 0.6 }
+			click = { motion_group = "touch*"  sounds = { "sound/demo/line1.wav" "sound/demo/line2.wav" "sound/demo/line3.wav" } }
+			click_head = { motion_group = "touch*" expression = "smile"  sounds = { "sound/demo/line1.wav" "sound/demo/line2.wav" "sound/demo/line3.wav" } }
+			hover = { expression = "smile"  expression_hold = 1.5 }
+			appear = { motion_group = "login"  expression = "smile"  expression_hold = 2 }
+			idle = { motion_group = "wait*"  interval = { 15 30 } }
+			greeting = { motion_group = "touch*"  sounds = { "sound/demo/line1.wav" "sound/demo/line2.wav" "sound/demo/line3.wav" } }
+		}
+	}
+	l2d_human_male_03 = {
+		live2d = yes
+		live2d_unmirror = yes
+		live2d_ignore_parameters = { "Paramxiangkuangkaiguan" "Paramxiangpiankaiguan" "Paramxiangpiantoushi" "Paramrenwukaiguan" "Paramruchangjiaocuoguang" "Paramruchangjiaocuoguangkaiguan" "Paramkaimuxuanguang" "Paramxuanguangshanshuo" "Paramdiweijinkaiguan" "Paramdiweijingkaiguan2" }
+		live2d_model = "gfx/live2d/model_07/model.model3.json"
+		live2d_view = { auto = yes  body = 0.46 }
+		live2d_actions = {
+			mouse_follow = { enabled = yes  strength = 0.6 }
+			click = { motion_group = "touch*"  sounds = { "sound/demo/line1.wav" "sound/demo/line2.wav" "sound/demo/line3.wav" } }
+			click_head = { motion_group = "touch*" expression = "smile"  sounds = { "sound/demo/line1.wav" "sound/demo/line2.wav" "sound/demo/line3.wav" } }
+			hover = { expression = "smile"  expression_hold = 1.5 }
+			appear = { motion_group = "wait*"  expression = "smile"  expression_hold = 2 }
+			idle = { motion_group = "wait*"  interval = { 15 30 } }
+			greeting = { motion_group = "touch*"  sounds = { "sound/demo/line1.wav" "sound/demo/line2.wav" "sound/demo/line3.wav" } }
+		}
+	}
+	l2d_human_male_04 = {
+		live2d = yes
+		live2d_unmirror = yes
+		live2d_ignore_parameters = { "ParamHeiMu*" }
+		live2d_model = "gfx/live2d/model_06/model.model3.json"
+		live2d_view = { auto = yes  body = 0.46 }
+		live2d_actions = {
+			mouse_follow = { enabled = yes  strength = 0.6 }
+			click = { motion_group = "touch*"  sounds = { "sound/demo/line1.wav" "sound/demo/line2.wav" "sound/demo/line3.wav" } }
+			click_head = { motion_group = "touch*" expression = "smile"  sounds = { "sound/demo/line1.wav" "sound/demo/line2.wav" "sound/demo/line3.wav" } }
+			hover = { expression = "smile"  expression_hold = 1.5 }
+			appear = { motion_group = "login"  expression = "smile"  expression_hold = 2 }
+			idle = { motion_group = "wait*"  interval = { 15 30 } }
+			greeting = { motion_group = "touch*"  sounds = { "sound/demo/line1.wav" "sound/demo/line2.wav" "sound/demo/line3.wav" } }
+		}
+	}
+	l2d_human_male_05 = {
+		live2d = yes
+		live2d_unmirror = yes
+		live2d_model = "gfx/live2d/model_02/model.model3.json"
+		live2d_view = { auto = yes  body = 0.46 }
+		live2d_actions = {
+			mouse_follow = { enabled = yes  strength = 0.6 }
+			click = { motion_group = "touch*"  sounds = { "sound/demo/line1.wav" "sound/demo/line2.wav" "sound/demo/line3.wav" } }
+			click_head = { motion_group = "touch*" expression = "smile"  sounds = { "sound/demo/line1.wav" "sound/demo/line2.wav" "sound/demo/line3.wav" } }
+			hover = { expression = "smile"  expression_hold = 1.5 }
+			appear = { motion_group = "login"  expression = "smile"  expression_hold = 2 }
+			idle = { motion_group = "wait*"  interval = { 15 30 } }
+			greeting = { motion_group = "touch*"  sounds = { "sound/demo/line1.wav" "sound/demo/line2.wav" "sound/demo/line3.wav" } }
+		}
+	}
+
+	# a leader a script or the empire designer gave one of the vanilla portraits by name is not drawn from the group, so the
+	# vanilla keys get the same models
+	human_female_01 = {
+		live2d = yes
+		live2d_unmirror = yes
+		live2d_model = "gfx/live2d/model_09/model.model3.json"
+		live2d_view = { auto = yes  body = 0.46 }
+		live2d_actions = {
+			mouse_follow = { enabled = yes  strength = 0.6 }
+			click = { motion_group = "touch*"  sounds = { "sound/demo/line1.wav" "sound/demo/line2.wav" "sound/demo/line3.wav" } }
+			click_head = { motion_group = "touch*" expression = "smile"  sounds = { "sound/demo/line1.wav" "sound/demo/line2.wav" "sound/demo/line3.wav" } }
+			hover = { expression = "smile"  expression_hold = 1.5 }
+			appear = { motion_group = "login"  expression = "smile"  expression_hold = 2 }
+			idle = { motion_group = "wait*"  interval = { 15 30 } }
+			greeting = { motion_group = "touch*"  sounds = { "sound/demo/line1.wav" "sound/demo/line2.wav" "sound/demo/line3.wav" } }
+		}
+	}
+	human_female_02 = {
+		live2d = yes
+		live2d_unmirror = yes
+		live2d_model = "gfx/live2d/model_02/model.model3.json"
+		live2d_view = { auto = yes  body = 0.46 }
+		live2d_actions = {
+			mouse_follow = { enabled = yes  strength = 0.6 }
+			click = { motion_group = "touch*"  sounds = { "sound/demo/line1.wav" "sound/demo/line2.wav" "sound/demo/line3.wav" } }
+			click_head = { motion_group = "touch*" expression = "smile"  sounds = { "sound/demo/line1.wav" "sound/demo/line2.wav" "sound/demo/line3.wav" } }
+			hover = { expression = "smile"  expression_hold = 1.5 }
+			appear = { motion_group = "login"  expression = "smile"  expression_hold = 2 }
+			idle = { motion_group = "wait*"  interval = { 15 30 } }
+			greeting = { motion_group = "touch*"  sounds = { "sound/demo/line1.wav" "sound/demo/line2.wav" "sound/demo/line3.wav" } }
+		}
+	}
+	human_female_03 = {
+		live2d = yes
+		live2d_unmirror = yes
+		live2d_model = "gfx/live2d/model_04/model.model3.json"
+		live2d_view = { auto = yes  body = 0.46 }
+		live2d_actions = {
+			mouse_follow = { enabled = yes  strength = 0.6 }
+			click = { motion_group = "touch*"  sounds = { "sound/demo/line1.wav" "sound/demo/line2.wav" "sound/demo/line3.wav" } }
+			click_head = { motion_group = "touch*" expression = "smile"  sounds = { "sound/demo/line1.wav" "sound/demo/line2.wav" "sound/demo/line3.wav" } }
+			hover = { expression = "smile"  expression_hold = 1.5 }
+			appear = { motion_group = "login"  expression = "smile"  expression_hold = 2 }
+			idle = { motion_group = "wait*"  interval = { 15 30 } }
+			greeting = { motion_group = "touch*"  sounds = { "sound/demo/line1.wav" "sound/demo/line2.wav" "sound/demo/line3.wav" } }
+		}
+	}
+	human_female_04 = {
+		live2d = yes
+		live2d_unmirror = yes
+		live2d_model = "gfx/live2d/model_01/model.model3.json"
+		live2d_view = { auto = yes  body = 0.46 }
+		live2d_actions = {
+			mouse_follow = { enabled = yes  strength = 0.6 }
+			click = { motion_group = "touch*"  sounds = { "sound/demo/line1.wav" "sound/demo/line2.wav" "sound/demo/line3.wav" } }
+			click_head = { motion_group = "touch*" expression = "smile"  sounds = { "sound/demo/line1.wav" "sound/demo/line2.wav" "sound/demo/line3.wav" } }
+			hover = { expression = "smile"  expression_hold = 1.5 }
+			appear = { motion_group = "login"  expression = "smile"  expression_hold = 2 }
+			idle = { motion_group = "wait*"  interval = { 15 30 } }
+			greeting = { motion_group = "touch*"  sounds = { "sound/demo/line1.wav" "sound/demo/line2.wav" "sound/demo/line3.wav" } }
+		}
+	}
+	human_female_05 = {
+		live2d = yes
+		live2d_unmirror = yes
+		live2d_ignore_parameters = { "ParamBlack0" }
+		live2d_model = "gfx/live2d/model_08/model.model3.json"
+		live2d_view = { auto = yes  body = 0.46 }
+		live2d_actions = {
+			mouse_follow = { enabled = yes  strength = 0.6 }
+			click = { motion_group = "touch*"  sounds = { "sound/demo/line1.wav" "sound/demo/line2.wav" "sound/demo/line3.wav" } }
+			click_head = { motion_group = "touch*" expression = "smile"  sounds = { "sound/demo/line1.wav" "sound/demo/line2.wav" "sound/demo/line3.wav" } }
+			hover = { expression = "smile"  expression_hold = 1.5 }
+			appear = { motion_group = "login"  expression = "smile"  expression_hold = 2 }
+			idle = { motion_group = "wait*"  interval = { 15 30 } }
+			greeting = { motion_group = "touch*"  sounds = { "sound/demo/line1.wav" "sound/demo/line2.wav" "sound/demo/line3.wav" } }
+		}
+	}
+	human_male_01 = {
+		live2d = yes
+		live2d_unmirror = yes
+		live2d_ignore_parameters = { "ParamSunX" "ParamSunY" "ParamSun" "ParamBlack1" "ParamBlackBack" "ParamCamZoom" "ParamCamX" "ParamCamY" }
+		live2d_model = "gfx/live2d/model_05/model.model3.json"
+		live2d_view = { x = 0.48 y = 0.49 height = 0.17 }
+		live2d_actions = {
+			mouse_follow = { enabled = yes  strength = 0.6 }
+			click = { motion_group = "touch*"  sounds = { "sound/demo/line1.wav" "sound/demo/line2.wav" "sound/demo/line3.wav" } }
+			click_head = { motion_group = "touch*" expression = "smile"  sounds = { "sound/demo/line1.wav" "sound/demo/line2.wav" "sound/demo/line3.wav" } }
+			hover = { expression = "smile"  expression_hold = 1.5 }
+			appear = { motion_group = "login"  expression = "smile"  expression_hold = 2 }
+			idle = { motion_group = "wait*"  interval = { 15 30 } }
+			greeting = { motion_group = "touch*"  sounds = { "sound/demo/line1.wav" "sound/demo/line2.wav" "sound/demo/line3.wav" } }
+		}
+	}
+	human_male_02 = {
+		live2d = yes
+		live2d_unmirror = yes
+		live2d_ignore_parameters = { "ParamQianjin0" "ParamQianjin" "ParamBlack" "ParamBlack2" "ParamCamera0" "ParamCamerax" "ParamCameray" "ParamCamerazoom" "ParamZoom" }
+		live2d_model = "gfx/live2d/model_03/model.model3.json"
+		live2d_view = { auto = yes  body = 0.46 }
+		live2d_actions = {
+			mouse_follow = { enabled = yes  strength = 0.6 }
+			click = { motion_group = "touch*"  sounds = { "sound/demo/line1.wav" "sound/demo/line2.wav" "sound/demo/line3.wav" } }
+			click_head = { motion_group = "touch*" expression = "smile"  sounds = { "sound/demo/line1.wav" "sound/demo/line2.wav" "sound/demo/line3.wav" } }
+			hover = { expression = "smile"  expression_hold = 1.5 }
+			appear = { motion_group = "login"  expression = "smile"  expression_hold = 2 }
+			idle = { motion_group = "wait*"  interval = { 15 30 } }
+			greeting = { motion_group = "touch*"  sounds = { "sound/demo/line1.wav" "sound/demo/line2.wav" "sound/demo/line3.wav" } }
+		}
+	}
+	human_male_03 = {
+		live2d = yes
+		live2d_unmirror = yes
+		live2d_ignore_parameters = { "Paramxiangkuangkaiguan" "Paramxiangpiankaiguan" "Paramxiangpiantoushi" "Paramrenwukaiguan" "Paramruchangjiaocuoguang" "Paramruchangjiaocuoguangkaiguan" "Paramkaimuxuanguang" "Paramxuanguangshanshuo" "Paramdiweijinkaiguan" "Paramdiweijingkaiguan2" }
+		live2d_model = "gfx/live2d/model_07/model.model3.json"
+		live2d_view = { auto = yes  body = 0.46 }
+		live2d_actions = {
+			mouse_follow = { enabled = yes  strength = 0.6 }
+			click = { motion_group = "touch*"  sounds = { "sound/demo/line1.wav" "sound/demo/line2.wav" "sound/demo/line3.wav" } }
+			click_head = { motion_group = "touch*" expression = "smile"  sounds = { "sound/demo/line1.wav" "sound/demo/line2.wav" "sound/demo/line3.wav" } }
+			hover = { expression = "smile"  expression_hold = 1.5 }
+			appear = { motion_group = "wait*"  expression = "smile"  expression_hold = 2 }
+			idle = { motion_group = "wait*"  interval = { 15 30 } }
+			greeting = { motion_group = "touch*"  sounds = { "sound/demo/line1.wav" "sound/demo/line2.wav" "sound/demo/line3.wav" } }
+		}
+	}
+	human_male_04 = {
+		live2d = yes
+		live2d_unmirror = yes
+		live2d_ignore_parameters = { "ParamHeiMu*" }
+		live2d_model = "gfx/live2d/model_06/model.model3.json"
+		live2d_view = { auto = yes  body = 0.46 }
+		live2d_actions = {
+			mouse_follow = { enabled = yes  strength = 0.6 }
+			click = { motion_group = "touch*"  sounds = { "sound/demo/line1.wav" "sound/demo/line2.wav" "sound/demo/line3.wav" } }
+			click_head = { motion_group = "touch*" expression = "smile"  sounds = { "sound/demo/line1.wav" "sound/demo/line2.wav" "sound/demo/line3.wav" } }
+			hover = { expression = "smile"  expression_hold = 1.5 }
+			appear = { motion_group = "login"  expression = "smile"  expression_hold = 2 }
+			idle = { motion_group = "wait*"  interval = { 15 30 } }
+			greeting = { motion_group = "touch*"  sounds = { "sound/demo/line1.wav" "sound/demo/line2.wav" "sound/demo/line3.wav" } }
+		}
+	}
+	human_male_05 = {
+		live2d = yes
+		live2d_unmirror = yes
+		live2d_model = "gfx/live2d/model_02/model.model3.json"
+		live2d_view = { auto = yes  body = 0.46 }
+		live2d_actions = {
+			mouse_follow = { enabled = yes  strength = 0.6 }
+			click = { motion_group = "touch*"  sounds = { "sound/demo/line1.wav" "sound/demo/line2.wav" "sound/demo/line3.wav" } }
+			click_head = { motion_group = "touch*" expression = "smile"  sounds = { "sound/demo/line1.wav" "sound/demo/line2.wav" "sound/demo/line3.wav" } }
+			hover = { expression = "smile"  expression_hold = 1.5 }
+			appear = { motion_group = "login"  expression = "smile"  expression_hold = 2 }
+			idle = { motion_group = "wait*"  interval = { 15 30 } }
+			greeting = { motion_group = "touch*"  sounds = { "sound/demo/line1.wav" "sound/demo/line2.wav" "sound/demo/line3.wav" } }
+		}
+	}
+}
