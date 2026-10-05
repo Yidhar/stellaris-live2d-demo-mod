@@ -23,7 +23,7 @@
 
 - **先 `set`，再 `add`。** 在多个文件里定义的肖像组会被*合并*，只写 `add` 的 mod 会让原版肖像留在池子里。这里每个作用域的第一条是 `set`，它丢掉原版列出的肖像。
 - **原版键也绑定了**（`human_female_05` 和 `l2d_human_female_05` 用同一个模型）：按名字直接指定肖像的领袖（比如开局设计帝国时选的统治者）不是从组里抽的。
-- **`appear = { motion_group = "login" }`** 配合每个模型自己的 `live2d_ignore_parameters`：许多模型的 `login` 动作是舞台入场（黑幕、镜头推拉），列出的参数会把这些关掉。插件仓库的 `tools/motion_diff.py` 能为某个模型找出它们。`model_07` 的 login 是整场戏，所以它的 `appear` 改播待机动作。
+- **`appear = { motion_group = "login" }`** 按作者做的样子播每个模型自己的入场动画。这批模型里很多带有逐渐散去的黑幕和镜头运动，开头几秒会在肖像里显示出来。不想要的话，把对应参数列进 `live2d_ignore_parameters`（插件仓库的 `tools/motion_diff.py` 能为某个模型找出它们；插件仓库的 `make_human_mod.py --ignore-stage` 可以看到效果）。
 - `l2d_human_female_01` 给三个点击动作各绑了一句语音（`voices`）；其它肖像轮流说其中任意一句（`sounds`）。`l2d_human_female_04` 放大 30%（`live2d_scale`）；`model_05` 的取景是手工指定的（`live2d_view = { x y height }`）。
 
 ## 使用
@@ -40,7 +40,7 @@
    | `model_04` | `human_female_03` |
    | `model_05` | `human_male_01`（取景手工指定） |
    | `model_06` | `human_male_04` |
-   | `model_07` | `human_male_03`（出现时播待机动作） |
+   | `model_07` | `human_male_03` |
    | `model_08` | `human_female_05` |
    | `model_09` | `human_female_01` |
 

@@ -27,9 +27,10 @@ Things worth reading in them:
   the pool. The first entry of each scope here is a `set`, which drops what vanilla listed.
 - **The vanilla keys are bound too** (`human_female_05` has the same model as `l2d_human_female_05`): a leader whose portrait was named
   outright, such as the ruler an empire was designed with, is not drawn from a group.
-- **`appear = { motion_group = "login" }`** with a per-model `live2d_ignore_parameters`: the `login` motion of many models is a stage
-  entrance (black curtain, camera zoom), which the listed parameters switch off. `tools/motion_diff.py` of the plugin repository finds them
-  for a model. `model_07`'s login is a whole scene, so its `appear` plays a wait motion instead.
+- **`appear = { motion_group = "login" }`** plays each model's own entrance as its author made it. For many of these models that
+  includes a black curtain that fades away and a camera move, which show in the portrait for the first seconds. A mod that does not want
+  them lists the parameters in `live2d_ignore_parameters` (`tools/motion_diff.py` of the plugin repository finds them for a model; the
+  plugin repository's `make_human_mod.py --ignore-stage` shows the result).
 - `l2d_human_female_01` binds a voice line to each of three touch motions (`voices`); the others say any of the lines in turn (`sounds`).
   `l2d_human_female_04` is magnified by 30 percent (`live2d_scale`); `model_05` has a hand-made framing (`live2d_view = { x y height }`).
 
@@ -49,7 +50,7 @@ Things worth reading in them:
    | `model_04` | `human_female_03` |
    | `model_05` | `human_male_01` (framing set by hand) |
    | `model_06` | `human_male_04` |
-   | `model_07` | `human_male_03` (appears with a wait motion) |
+   | `model_07` | `human_male_03` |
    | `model_08` | `human_female_05` |
    | `model_09` | `human_female_01` |
 
