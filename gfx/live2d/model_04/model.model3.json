@@ -1,0 +1,147 @@
+{
+ "FileReferences": {
+  "Moc": "model.moc3",
+  "Motions": {
+   "Idle": [
+    {
+     "FadeInTime": 1.0,
+     "FadeOutTime": 1.0,
+     "File": "motions/daiji_idle_01.motion3.json"
+    }
+   ],
+   "login": [
+    {
+     "FadeInTime": 1.0,
+     "FadeOutTime": 1.0,
+     "File": "motions/login.motion3.json"
+    }
+   ],
+   "shake": [
+    {
+     "FadeInTime": 1.0,
+     "FadeOutTime": 1.0,
+     "File": "motions/shake.motion3.json"
+    }
+   ],
+   "touch_1": [
+    {
+     "FadeInTime": 1.0,
+     "FadeOutTime": 1.0,
+     "File": "motions/touch_1.motion3.json"
+    }
+   ],
+   "touch_2": [
+    {
+     "FadeInTime": 1.0,
+     "FadeOutTime": 1.0,
+     "File": "motions/touch_2.motion3.json"
+    }
+   ],
+   "touch_3": [
+    {
+     "FadeInTime": 1.0,
+     "FadeOutTime": 1.0,
+     "File": "motions/touch_3.motion3.json"
+    }
+   ],
+   "touch_4": [
+    {
+     "FadeInTime": 1.0,
+     "FadeOutTime": 1.0,
+     "File": "motions/touch_4.motion3.json"
+    }
+   ],
+   "touch_5": [
+    {
+     "FadeInTime": 1.0,
+     "FadeOutTime": 1.0,
+     "File": "motions/touch_5.motion3.json"
+    }
+   ],
+   "touch_halloween": [
+    {
+     "FadeInTime": 1.0,
+     "FadeOutTime": 1.0,
+     "File": "motions/touch_halloween.motion3.json"
+    }
+   ],
+   "touch_x": [
+    {
+     "FadeInTime": 1.0,
+     "FadeOutTime": 1.0,
+     "File": "motions/touch_x.motion3.json"
+    }
+   ],
+   "wait_1": [
+    {
+     "FadeInTime": 0.30000001192092896,
+     "FadeOutTime": 1.0,
+     "File": "motions/wait_1.motion3.json"
+    }
+   ],
+   "wait_2": [
+    {
+     "FadeInTime": 1.0,
+     "FadeOutTime": 1.0,
+     "File": "motions/wait_2.motion3.json"
+    }
+   ],
+   "wedding": [
+    {
+     "FadeInTime": 1.0,
+     "FadeOutTime": 1.0,
+     "File": "motions/wedding.motion3.json"
+    }
+   ],
+   "wedding_touch": [
+    {
+     "FadeInTime": 1.0,
+     "FadeOutTime": 1.0,
+     "File": "motions/wedding_touch.motion3.json"
+    }
+   ]
+  },
+  "Physics": "model.physics3.json",
+  "Textures": [
+   "texture0.dds"
+  ],
+  "Expressions": [
+   {
+    "Name": "smile",
+    "File": "expressions/smile.exp3.json"
+   }
+  ]
+ },
+ "Groups": [
+  {
+   "Ids": [
+    "ParamEyeLOpen",
+    "ParamEyeROpen"
+   ],
+   "Name": "EyeBlink",
+   "Target": "Parameter"
+  },
+  {
+   "Ids": [
+    "ParamMouthOpenY"
+   ],
+   "Name": "LipSync",
+   "Target": "Parameter"
+  }
+ ],
+ "HitAreas": [
+  {
+   "Id": "HitAreaLeg",
+   "Name": "leg"
+  },
+  {
+   "Id": "HitAreaBody",
+   "Name": "body"
+  },
+  {
+   "Id": "HitAreaHead",
+   "Name": "head"
+  }
+ ],
+ "Version": 3
+}

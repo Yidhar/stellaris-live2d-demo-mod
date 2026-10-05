@@ -1,0 +1,27 @@
+{
+ "Type": "Live2D Expression",
+ "FadeInTime": 0.4,
+ "FadeOutTime": 0.6,
+ "Parameters": [
+  {
+   "Id": "ParamCheek",
+   "Value": 1,
+   "Blend": "Add"
+  },
+  {
+   "Id": "ParamEyeLSmile",
+   "Value": 1,
+   "Blend": "Add"
+  },
+  {
+   "Id": "ParamEyeRSmile",
+   "Value": 1,
+   "Blend": "Add"
+  },
+  {
+   "Id": "ParamMouthForm",
+   "Value": 0.8,
+   "Blend": "Add"
+  }
+ ]
+}
